@@ -1,0 +1,9 @@
+@import "tailwindcss";
+
+@theme {
+  --color-primary: #5D4037; /* Cor do feijão */
+  --color-secondary: #D2B48C; /* Cor da farinha misturada */
+  --color-accent: #3E2723; /* Feijão escuro */
+  --color-background: #FDFBF7; /* Fundo levemente creme */
+  --color-surface: #FFFFFF;
+}
