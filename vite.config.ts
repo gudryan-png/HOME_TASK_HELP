@@ -7,7 +7,7 @@ export default defineConfig(({ mode }) => {
   const env = loadEnv(mode, process.cwd(), '')
 
   return {
-    base: '/HOME_TASK_HELP/',
+    base: '/home-task-help/',
 
     plugins: [react(), tailwindcss()],
 
@@ -24,5 +24,10 @@ export default defineConfig(({ mode }) => {
     server: {
       hmr: process.env.DISABLE_HMR !== 'true',
     },
+
+    build: {
+      outDir: 'dist',
+    },
   }
+})
 })
